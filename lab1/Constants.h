@@ -1,0 +1,16 @@
+#ifndef LAB1_CONSTANTS_H
+#define LAB1_CONSTANTS_H
+#define MAX_RANDOM_GENERATED_ARRAY_SIZE 1000
+#define MIN_RANDOM_GENERATED_NUMBER -100
+#define MAX_RANDOM_GENERATED_NUMBER 100
+#define TO_MASTER 0
+#define FROM_MASTER 0
+#define NO_WORKERS_RUNNING_ERROR 1
+#define BAD_TO_MASTER_DEFINE_ERROR 2
+#define SUM_CALCULATED_TAG 3
+#define $int(a) to_string(a)
+#define $(a) string(a)
+// Tags
+#define COUNT_TAG 1
+#define ARRAY_TAG 2
+#endif //LAB1_CONSTANTS_H
